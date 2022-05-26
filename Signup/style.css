@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../Login/graduation.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-top: 22px;
+  height: 90vh;
+}
+.leftSection {
+  width: 50%;
+}
+.rightSection {
+  width: 50%;
+  padding-left: 22px;
+  background-color: white;
+  padding-top: 35px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
+
+.welcome:first-child {
+  font-size: 25px;
+}
+
+.input {
+  margin-top: 22px;
+}
+.input input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 70%;
+  border-bottom-color: #ccc;
+}
+
+.inputSide {
+  display: flex;
+  flex-direction: row;
+  margin-top: 22px;
+}
+
+.inputSide input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 35%;
+  border-bottom-color: #ccc;
+  margin-right: 7px;
+}
+.btnContainer {
+  margin-top: 50px;
+}
+.btn {
+  width: 70%;
+  border: none;
+  background-color: #0088ea;
+  color: white;
+  padding: 7px;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ffa500;
+}
+.signupCOntainer {
+  margin-top: 25px;
+}
+
+.txt {
+  color: #ffa500;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 620px) {
+  .leftSection {
+    display: none;
+  }
+  .rightSection {
+    width: 100%;
+  }
+}
